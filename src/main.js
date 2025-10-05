@@ -17,11 +17,11 @@ resizeCanvas(canvas);
 let grid = generateGrid(canvas.width, canvas.height);
 
 AnimationRegistry.register([
-  bounce,
   time,
-  neuralSparks,
   countdown,
   bottle,
+  bounce,
+  neuralSparks,
   spiral,
 ]);
 setupControls(AnimationRegistry, () => grid);
